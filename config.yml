@@ -184,6 +184,10 @@ params:
       category: Web
       link: https://haste.athion.net/
 
+    - name: Sheriff (Discord Bot)
+      category: Discord
+      link: https://discord.gg/intellectualsites
+
     - name: fastasyncvoxelsniper.com
       category: Domains
       link: http://fastasyncvoxelsniper.com/
@@ -196,10 +200,6 @@ params:
     - name: plotsquared.com
       category: Domains
       link: https://plotsquared.com/
-    
-    - name: Sheriff (Discord Bot)
-      category: Discord
-      link: https://discord.gg/intellectualsites
 
   # What date format to use?
   #
