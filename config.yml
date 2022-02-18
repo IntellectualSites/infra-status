@@ -146,6 +146,15 @@ params:
     - name: Services
       untitled: true
       closed: false
+    - name: Web
+      untitled: true
+      closed: false
+    - name: Discord
+      untitled: true
+      closed: false
+    - name: Domains
+      untitled: true
+      closed: false
 
   # These are your systems. Change them to
   # change the amount of components.
@@ -158,6 +167,39 @@ params:
     - name: ci.athion.net
       category: Services
       link: https://ci.athion.net/
+
+    - name: api.schematic.cloud
+      category: Web
+      link: https://api.schematic.cloud/
+    - name: schem.intellectualsites.com/plots
+      category: Web
+      link: https://schem.intellectualsites.com/plots/
+    - name: schem.intellectualsites.com/fawe/
+      category: Web
+      link: https://schem.intellectualsites.com/fawe/
+    - name: athion.net/ISPaster
+      category: Web
+      link: https://athion.net/ISPaster/
+    - name: haste.athion.net
+      category: Web
+      link: https://haste.athion.net/
+
+    - name: fastasyncvoxelsniper.com
+      category: Domains
+      link: http://fastasyncvoxelsniper.com/
+    - name: fastasyncworldedit.com
+      category: Domains
+      link: http://fastasyncworldedit.com/
+    - name: intellectualsites.com
+      category: Domains
+      link: https://intellectualsites.com/
+    - name: plotsquared.com
+      category: Domains
+      link: https://plotsquared.com/
+    
+    - name: Sheriff (Discord Bot)
+      category: Discord
+      link: https://discord.gg/intellectualsites
 
   # What date format to use?
   #
