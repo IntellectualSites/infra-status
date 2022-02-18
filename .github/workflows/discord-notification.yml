@@ -14,11 +14,11 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           username: "Infrastructure Updates"
-          embed-title	: "IntellectualSites' Infrastructure Notification"
+          embed-title	: "IntellectualSites Infrastructure Notification"
           avatar-url: "https://raw.githubusercontent.com/IntellectualSites/Assets/main/IntellectualSites.png"
           embed-color: "16711680"
           embed-description: |
-           * **An incident has been created**: ${{ github.event.commits[0].message }}
+           **An incident has been created**: ${{ github.event.commits[0].message }}
            https://intellectualsites.github.io/infra-status/
       
       - name: Notify on incident update
@@ -27,7 +27,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           username: "Infrastructure Updates"
-          embed-title	: "IntellectualSites' Infrastructure Notification"
+          embed-title	: "IntellectualSites Infrastructure Notification"
           avatar-url: "https://raw.githubusercontent.com/IntellectualSites/Assets/main/IntellectualSites.png"
           embed-color: "16746496"
           embed-description: |
@@ -40,7 +40,7 @@ jobs:
         with:
           webhook-url: ${{ secrets.WEBHOOK_URL }}
           username: "Infrastructure Updates"
-          embed-title	: "IntellectualSites' Infrastructure Notification"
+          embed-title	: "IntellectualSites Infrastructure Notification"
           avatar-url: "https://raw.githubusercontent.com/IntellectualSites/Assets/main/IntellectualSites.png"
           embed-color: "65280"
           embed-description: |
