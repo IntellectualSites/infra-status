@@ -1,7 +1,8 @@
 ---
 title: ci.athion.net is down
 date: 2022-02-18 18:45:00
-resolved: false
+resolved: true
+resolvedWhen: 2022-02-19 00:25:00 
 severity: down
 affected:
   - ci.athion.net
