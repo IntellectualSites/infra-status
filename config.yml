@@ -262,7 +262,7 @@ params:
   #
   # Default: `false`
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -278,7 +278,10 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: |
+    We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+    Feel free to contribute to this page [here](https://github.com/IntellectualSites/infra-status/)
+    For further questions, feel free to visit us on our [Discord server](https://discord.gg/intellectualsites)
 
   # Tabs on homepage
   # Uncomment to enable.

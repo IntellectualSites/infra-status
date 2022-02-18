@@ -1,0 +1,53 @@
+:source-highlighter: coderay
+:source-language: MARKDOWN
+
+This repository generates https://intellectualsites.github.io/infra-status/
+
+== Create a new post
+
+To prepare a new incident, you need to create a file in the directory `./content/issues` with a filename matching YYYY-MM-DD-event-tile.md
+
+=== Prepare an incident
+
+To prepare a planned downtime, create a post like this:
+
+[source]
+----
+---
+title: Title
+date: YYYY-MM-DD HH:MM:SS UTC
+resolved: true
+resolvedWhen: YYYY-MM-DD HH:MM:SS UTC
+# Possible severity levels: down, disrupted, notice
+severity: notice
+
+affected:
+  - ci.athion.net
+section: issue
+---
+
+Content goes here
+
+----
+
+
+=== Incidents
+
+If you are aware of an incident which hasn't been posted here, feel free to create an incident as follow
+
+[source]
+----
+---
+title: Incident Title
+date: YYYY-MM-DD HH:MM:SS UTC
+resolved: false
+# Possible severity levels: down, disrupted, notice
+severity: disrupted
+affected:
+  - ci.athion.net
+section: issue
+---
+
+Content goes here
+
+----
