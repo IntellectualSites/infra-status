@@ -5,7 +5,7 @@ This repository generates https://intellectualsites.github.io/infra-status/
 
 == Create a new post
 
-To prepare a new incident, you need to create a file in the directory `./content/issues` with a filename matching YYYY-MM-DD-event-tile.md
+To prepare a new incident, you need to create a file in the directory `./content/issues` with a filename matching YYYY-MM-DD-event-title.md
 
 === Prepare an incident
 
