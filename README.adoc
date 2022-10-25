@@ -7,15 +7,6 @@ This repository generates https://intellectualsites.github.io/infra-status/
 
 To prepare a new incident, you need to create a file in the directory `./content/issues` with a filename matching YYYY-MM-DD-event-title.md
 
-=== Publish an announcement to discord
-
-To publish an incident on discord, the merge commit needs to start with the couple of keywords:
-
-* `Create incident:`
-* `Resolve incident:`
-
-Take a look at the following commit for an example: https://github.com/IntellectualSites/infra-status/commit/cc8b79e5417f0ff6a965bcd5d5633cd9ad4d931b
-
 === Prepare an incident
 
 To prepare a planned downtime, create a post like this:
